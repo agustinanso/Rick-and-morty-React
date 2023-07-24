@@ -41,7 +41,7 @@ export function CharacterList() {
   return (
     <div className="container flex flex-col items-center justify-center px-4 mx-auto">
       <NavBar setSearch={setSearch} setCurrenPage={setCurrenPage} />
-      <div className="sm:hidden">
+      <div className="mx-auto sm:hidden">
         <PagiNation
           page={page}
           setPage={setPage}
