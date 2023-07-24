@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ciruela";
+  src: local("hola.ttf"), url("./fonts/hola.ttf") format("truetype");
+  font-weight: normal;
+}
