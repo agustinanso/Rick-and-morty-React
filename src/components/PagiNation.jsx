@@ -16,7 +16,7 @@ function PagiNation({ setPage, setLoading, page, currentPage }) {
   }
 
   return (
-    <div className="flex max-w-[300px] w-full  mt-16 mb-10 sm:mb-16  gap-6">
+    <div className="flex max-w-[300px]  justify-center w-full mx-auto mt-16 mb-10 sm:mb-16 gap-2">
       <button
         onClick={handlePrevPage}
         className="p-4 rounded-full bg-secondary fill-terciary hover:fill-black hover:bg-quintenary hover:shadow-md hover:shadow-black">
